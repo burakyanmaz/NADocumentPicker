@@ -52,7 +52,7 @@ public class NADocumentPicker : NSObject {
      
      - Returns: A `Future` containing the document picked or `NoDocumentPicked`
      */
-    public class func show(from view: UIView, parentViewController: UIViewController, documentTypes: [String] = [kUTTypePlainText as String]) -> Future<NSURL, AnyError> {
+    public class func show(from view: UIView, parentViewController: UIViewController, documentTypes: [String] = [kUTTypeContent as String]) -> Future<NSURL, AnyError> {
         let instance = NADocumentPicker(parentViewController: parentViewController)
         return instance.showDocumentProviderMenu(from: view, parentViewController: parentViewController, documentTypes: documentTypes)
     }
