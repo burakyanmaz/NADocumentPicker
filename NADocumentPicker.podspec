@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.dependency 'AnyError','1.0.0'
   s.dependency 'NACommonUtils','1.4.1'
-  s.dependency 'BrightFutures','v4.1.1'
+  s.dependency 'BrightFutures','4.1.1'
 end
