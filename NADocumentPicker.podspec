@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
 
   s.frameworks = 'UIKit'
-  s.dependency 'AnyError'
-  s.dependency 'NACommonUtils'
-  s.dependency 'BrightFutures'
+  s.dependency 'AnyError', :tag => '1.0.0'
+  s.dependency 'NACommonUtils', :tag => '1.4.1'
+  s.dependency 'BrightFutures', :tag => 'v4.1.1'
 end
